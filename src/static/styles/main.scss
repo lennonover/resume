@@ -1,0 +1,17 @@
+/**
+ * 去除浮动带来的影响
+*/
+.fix:before,
+.fix:after {
+    content: "";
+    display: table;
+}
+
+.fix:after {
+    clear: both;
+}
+.re{
+    width: 595px;
+    height: 842px;
+    margin: 0 auto;
+}
